@@ -5,7 +5,7 @@ class Header extends Component {
     return (
       <nav className="navbar navbar-light bg-light">
         <a className="navbar-brand">Box Upload</a>
-        <form className="form-inline">
+        {/* <form className="form-inline">
           <input
             className="form-control mr-sm-2"
             type="search"
@@ -18,7 +18,7 @@ class Header extends Component {
           >
             Search
           </button>
-        </form>
+        </form> */}
       </nav>
     );
   }

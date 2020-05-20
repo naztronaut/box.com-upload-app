@@ -6,7 +6,6 @@ app = Flask(__name__, static_folder='./ui/build', static_url_path='/')
 
 
 # Serve React app
-# TODO: Place react app files in this repo and put build/ dir in .gitignore
 @app.route('/')
 def main():
     return app.send_static_file('index.html')
