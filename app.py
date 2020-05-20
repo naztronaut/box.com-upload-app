@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 import upload as uf
 import sdk_jwt as sj
 
-app = Flask(__name__, static_folder='./build', static_url_path='/')
+app = Flask(__name__, static_folder='./ui/build', static_url_path='/')
 
 
 # Serve React app
